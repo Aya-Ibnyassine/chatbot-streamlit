@@ -1,0 +1,12 @@
+data:
+  raw_path: "data/raw"
+  processed_path: "data/processed/chroma_db"
+
+splitter:
+  chunk_size: 300
+  chunk_overlap: 50
+
+model:
+  embedding_name: "all-MiniLM-L6-v2"
+  llm_name: "openai/gpt-oss-20b"
+  temperature: 0.1

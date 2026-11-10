@@ -1,0 +1,4 @@
+{"question": "How do I create a dataframe in Streamlit?", "ground_truth": "Use st.dataframe() or st.write()."}
+{"question": "How to add a text input in Streamlit?", "ground_truth": "Use st.text_input()."}
+{"question": "How to create a multi-page app?", "ground_truth": "Use st.page_link() or the pages/ directory."}
+{"question": "What is the capital of France?", "ground_truth": "I don't know."}
