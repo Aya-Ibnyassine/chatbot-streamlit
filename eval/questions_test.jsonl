@@ -1,4 +1,13 @@
-{"question": "How do I create a dataframe in Streamlit?", "ground_truth": "Use st.dataframe() or st.write()."}
-{"question": "How to add a text input in Streamlit?", "ground_truth": "Use st.text_input()."}
-{"question": "How to create a multi-page app?", "ground_truth": "Use st.page_link() or the pages/ directory."}
-{"question": "What is the capital of France?", "ground_truth": "I don't know."}
+{"question": "How do I display a dataframe as an interactive table in Streamlit?", "ground_truth": "st.dataframe"}
+{"question": "What is the primary command to run a Streamlit application from the command line?", "ground_truth": "streamlit run"}
+{"question": "How can I connect my Streamlit application to a MySQL database?", "ground_truth": "st.connection"}
+{"question": "What is the recommended way to create a multi-page app?", "ground_truth": "pages directory"}
+{"question": "How do I structure the main architecture of a Streamlit app?", "ground_truth": "top-to-bottom"}
+{"question": "What is the Anaconda distribution and how to use it with Streamlit?", "ground_truth": "conda install"}
+{"question": "How does Streamlit handle caching for expensive computations?", "ground_truth": "st.cache_data"}
+{"question": "What are the basic steps to build an LLM app with Streamlit?", "ground_truth": "chat_message"}
+{"question": "How do I create a multiple container fragment?", "ground_truth": "st.fragment"}
+{"question": "What are some additional features of Streamlit beyond the basics?", "ground_truth": "session state"}
+{"question": "What is the capital of France?", "ground_truth": "I don't know"}
+{"question": "How to deploy an application using Docker Compose?", "ground_truth": "I don't know"}
+{"question": "Can you give me a recipe for chocolate cake?", "ground_truth": "I don't know"}

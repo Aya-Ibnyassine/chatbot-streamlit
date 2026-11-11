@@ -3,7 +3,7 @@ data:
   processed_path: "data/processed/chroma_db"
 
 splitter:
-  chunk_size: 300
+  chunk_size: 500
   chunk_overlap: 50
 
 model:
