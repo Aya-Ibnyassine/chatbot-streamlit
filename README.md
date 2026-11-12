@@ -1,4 +1,4 @@
-# Streamwise (AskStream.ai) - Pipeline RAG Industrialisé (MLOps)
+# Streamwise - Pipeline RAG Industrialisé (MLOps)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
