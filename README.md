@@ -69,7 +69,7 @@ python eval/evaluate.py
 ### Étape 4 : Lancement de l'Application Web
 Démarre l'interface utilisateur Streamwise.
 ```bash
-streamlit run app.py
+streamlit run src/app.py
 ```
 
 ---
@@ -83,9 +83,11 @@ streamlit run app.py
 │   ├── raw/             # Documentation Streamlit brute (.md)
 │   └── processed/       # Base vectorielle ChromaDB (ignorée par Git, gérée par DVC)
 ├── eval/                # Scripts d'évaluation et dataset de test (.jsonl)
-├── src/                 # Code source métier (rag.py, ingest.py)
+├── src/                 # Code source Python
+│   ├── app.py           # Interface utilisateur Streamlit
+│   ├── ingest.py        # Pipeline d'ingestion et text splitting
+│   └── rag.py           # Logique métier du RAG et de génération
 ├── tests/               # Tests unitaires pour la Quality Gate (test_pipeline.py)
-├── app.py               # Interface utilisateur Streamlit
 ├── data.dvc             # Pointeurs de versionnement des données
 └── requirements.txt     # Dépendances Python
 ```
